@@ -1,6 +1,6 @@
-.content{
-    min-height: 93vh;
-    min-width: 95vw;
+.content {
+    min-height: 87.2vh;
+    min-width: 98vw;
     background-color: #1f1b2e;
 }
 .header {
@@ -8,4 +8,20 @@
     position: sticky;
     top: 0;
     z-index: 1;
+}
+.footer {
+    padding-top: 1em;
+    background: rgb(42 39 57);
+    height: 6vh;
+    text-align: center;
+}
+
+.icon {
+    font-size: 28px;
+    color: #bfbfc4;
+}
+
+.icon :hover {
+    font-size: 30px;
+    color: #dededf;
 }

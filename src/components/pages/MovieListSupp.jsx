@@ -15,19 +15,20 @@ const MovieListSupp = ({ data, getMovies, isFetching }) => {
     }
 
     return (
-        <>
+        <div className={s.wrapper}>
             <Pagination
                 className={s.paginator}
                 current={data.page_number}
                 total={data.movie_count}
                 pageSize={data.limit}
                 onChange={onChange}
+                defaultPageSize={data.page_number}
                 pageSizeOptions={['12', '20', '40']}
             />
             <div className={s.MovieList}>
                 <MovieList onChange={onChange} isFetching={isFetching} data={data} />
             </div>
-        </>
+        </div>
     )
 }
 
