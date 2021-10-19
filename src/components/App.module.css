@@ -1,0 +1,11 @@
+.content{
+    min-height: 93vh;
+    min-width: 95vw;
+    background-color: #1f1b2e;
+}
+.header {
+    background-color: #100e19;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
